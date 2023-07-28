@@ -47,6 +47,14 @@ public class UserController {
         }
     }
 
+    @GetMapping("users")
+    public List<User> getAllUsers(@RequestParam @Pattern(regexp = "^\\w+@gmail\\.com$") String email , @RequestParam @NotBlank String authToken){
+        if(authenticationTokenService.authenticate(email , authToken)){
+            return userService.getAllUsers();
+        }
+        return null; // We can also throw exception here
+    }
+
 
 
 

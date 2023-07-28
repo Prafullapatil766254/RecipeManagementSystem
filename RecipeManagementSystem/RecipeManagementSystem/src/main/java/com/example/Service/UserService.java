@@ -8,6 +8,8 @@ import com.example.Service.Utility.PasswordUtility.PasswordEncrypter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class UserService {
     @Autowired
@@ -104,5 +106,9 @@ public class UserService {
 
     public User findFirstEmail(String email) {
        return userRepo.findFirstByEmail(email);
+    }
+
+    public List<User> getAllUsers() {
+        return userRepo.findAll();
     }
 }
