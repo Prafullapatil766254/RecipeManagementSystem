@@ -76,7 +76,7 @@ public class RecipeService {
                 recipeRepo.delete(recipe);
                 return "Recipe for id " + id + " deleted successfully..";
             } else {
-                return "You are not authorized user to update recipe only owner can update it.";
+                return "You are not authorized user to delete recipe only owner can delete it.";
             }
         }
         return "Recipe not found with id " + id;
