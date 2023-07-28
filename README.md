@@ -1,4 +1,4 @@
-# Recipe Management System
+# Recipe Management System 
 
 Recipe Management System application is a Java application built using Maven and the SpringBoot framework.
 
