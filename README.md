@@ -34,7 +34,7 @@ I have used MYSQL as an database to store my data in persistant way.
 
 ## Project Summary
 
-Recipe management system is simple springboot application that allows user to share their recipes , so that people can see them and follow those recipes make their favourite items. Users can post comments on someones recipes if they like them or incase if they wanted to give any suggestions. User must register themselves that is signUp and after that must login in order to use the application. After sign in they cant do anything like they can add , get , remove , update recipes and also comment on someones recipes.
+Recipe management system is simple springboot application that allows user to share their recipes , so that people can see them and follow those recipes make their favourite items. Users can post comments on someones recipes if they like them or incase if they wanted to give any suggestions. User must register themselves that is signUp and after that must login in order to use the application. After sign in they cant do anything like they can add , get , remove , update recipes and also comment on someones recipes. Also deployed code on AWS so that every one can user application.
 
 
 
